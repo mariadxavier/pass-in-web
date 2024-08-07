@@ -29,4 +29,3 @@ A aplicação consome a API pública do Fakerjs para obter os dados de convidado
 - Consultar convidados por Id de evento;
 - Compartilhamento de informações de convidado;
 - Gestão de comparecimento.
-- 
