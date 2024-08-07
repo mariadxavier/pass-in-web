@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+# Pass In
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Badge de Status](https://img.shields.io/badge/status-concluido-green)
 
-Currently, two official plugins are available:
+## 📋 Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Pass In web é uma aplicação web com foco em eventos que permite aos usuários acesso à listas de convidados e seus respectivos dados. Este projeto foi desenvolvido como parte da Next Level Week da Rocketseat. O principal objetivo do projeto é aplicar conhecimentos em React.js, consumo de APIs, estilização com Tailwind e tipagem com Typescript.
 
-## Expanding the ESLint configuration
+A aplicação consome a API pública do Fakerjs para obter os dados de convidados fictícios e exibi-los de maneira intuitiva e organizada. Além disso, o projeto incorpora boas práticas de desenvolvimento, como a utilização de componentes reutilizáveis e gerenciamento de estado com hooks.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📁 Estrutura do Projeto
 
-- Configure the top-level `parserOptions` property like this:
+- **/src**: Contém os arquivos principais do projeto, como o arquivo main.tsx.
+- **/assets**: Imagens, fontes e outros recursos estáticos.
+- **/components**: Componentes react.
+- **/routes**: Teste de rotas para troca de tela com ReactRouterDom.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## 🛠️ Tecnologias Utilizadas
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- React.js
+- Typescript
+- Tailwind
+- FakerJs
+- Node.js
+- Vite
+
+## 🚀 Funcionalidades
+
+- Consultar convidados por Id de evento;
+- Compartilhamento de informações de convidado;
+- Gestão de comparecimento.
+- 
